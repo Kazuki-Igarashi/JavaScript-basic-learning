@@ -23,8 +23,11 @@ let str = 'BananaLemonOrange';
 
 console.log(str.replace('Lemon', '[$&]'));
 >> Banana[Lemon]Orange
+
 console.log(str.replace('Lemon', '[$`]'));
 >> Banana[Banana]Orange
+
 console.log(str.replace('Lemon', '[$\']'));
 >> Banana[Orange]Orange
+
 今回のサンプルでは置換する文字列が 'Lemon' なので '$&' は 'Lemon' となり、 '$`' は 'Lemon' の前の 'Banana' となり、 '$\'' は 'Lemon' のあとの 'Orange' となります。
