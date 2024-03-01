@@ -7,6 +7,8 @@ addless = pref.concat('港区', '芝公園');
 // console.log(pref);
 // >> 東京都
 
+
+
 let point = 78;
 let msg = '得点は'.concat(point, '点です');
 
