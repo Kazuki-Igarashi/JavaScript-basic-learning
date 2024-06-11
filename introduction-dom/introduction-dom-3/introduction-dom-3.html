@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>getElementsByClassName</title>
+
+<style type="text/css">
+  div, p{
+    padding:20px;
+    margin:10px;
+    width:30%;
+  }
+  .box{
+    border:1px solid #ff0000;
+  }
+</style>
+</head>
+
+<script src="introduction-dom-3.js"></script>
+
+<body>
+
+  <p>外出記録</p>
+  
+  <div class="box">
+    <p>今日は外でランチを食べました</p>
+    <div id="shopinfo">
+      <p class="box">場所：港区南青山</p>
+      <p class="box">店名：リストランテ南青山</p>
+    </div>
+  </div>
+
+  <button onClick="getElements();">要素を取得</button>
+
+</body>
